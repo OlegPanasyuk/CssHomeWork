@@ -1,0 +1,23 @@
+@import url('../common/css/fonts.css');
+@import url('../header/css/header.css');
+@import url('../profile/css/profile.css');
+@import url('../chat/css/chat.css');
+@import url('../suggestions/css/suggestions.css');
+@import url('../activity_feed/css/active-feed.css');
+@import url('../dialogues/css/dialogues.css');
+
+
+
+body {
+  background-color: #e9e8e4;
+}
+
+.common_wrapper {
+  display: grid;
+  grid-template-rows: 150px 200px 600px 811px;
+  grid-template-columns: 1.05fr 0.9fr 1.05fr ;
+  width: calc(100% - 240px);
+  grid-gap: 50px;
+  margin: 120px auto;
+  box-sizing: border-box;
+}
